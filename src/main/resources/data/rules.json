@@ -1,0 +1,47 @@
+[
+  {
+    "score": 100,
+    "conditions": [
+      {
+        "attribute": {
+          "name": "color",
+          "value": "BLUE"
+        },
+        "comparisonOperator": "=="
+      },
+      {
+        "attribute": {
+          "name": "price",
+          "value": "17.75"
+        },
+        "comparisonOperator": "<"
+      },
+      {
+        "attribute": {
+          "name": "quantity",
+          "value": "750"
+        },
+        "comparisonOperator": ">"
+      }
+    ]
+  },
+  {
+    "score": -100,
+    "conditions": [
+      {
+        "attribute": {
+          "name": "color",
+          "value": "BACK"
+        },
+        "comparisonOperator": "=="
+      },
+      {
+        "attribute": {
+          "name": "quantity",
+          "value": "12"
+        },
+        "comparisonOperator": "<"
+      }
+    ]
+  }
+]
